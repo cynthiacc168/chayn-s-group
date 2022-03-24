@@ -1,0 +1,17 @@
+@import url("/static/css/common.css");
+.intro{
+    background-image: url(/static/images/intro.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.intro-text{
+    width: 400px;
+    /* border-radius: 1%; */
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: rgba(255, 253, 236, 0.4);
+    box-shadow: 1px 1px 5px 25px rgba(255, 253, 236, 0.4);
+}
