@@ -2,8 +2,14 @@
 .intro{
     background-image: url(/static/images/intro.jpg);
     background-size:cover;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     height: 600px;
+}
+.teams{
+    background-image: url(/static/images/teams.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 800px;
 }
 
 .intro-text{
@@ -11,7 +17,64 @@
     /* border-radius: 1%; */
     display: inline-block;
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 50px;
     background-color: rgba(255, 253, 236, 0.4);
     box-shadow: 1px 1px 5px 25px rgba(255, 253, 236, 0.4);
 }
+
+.ongoing-project{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+
+}
+
+.pj-text{
+    display: inline-block;
+    width: 25%;
+}
+.pj-2 .pj-text{
+    margin-left: 20px;
+}
+.blank{
+    clear: both;
+}
+
+.ongoing-project img{
+    width:70%;
+
+}
+
+.pj-1 img{
+    float: right;
+}
+
+.pj-2 img{
+    float: left;
+}
+.team{
+    margin-top: 50px;
+}
+.team-text{
+    float:right;
+    width:55%;
+    margin-right:50px;
+}
+
+.collaboration{
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.collaboration img{
+    width:80%;
+}
+
+.col-icon{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: auto;
+    grid-gap:10px;
+}
+

@@ -1,0 +1,18 @@
+@import url("/static/css/common.css");
+
+.info{
+    background-color: rgba(235, 235, 235, 50%);
+    margin:auto;
+    /* text-align: center; */
+    width: 50%;
+    
+}
+
+.info img{
+    display: block;
+    margin:auto;
+}
+.text{
+    width: 70%;
+    margin: auto;
+}
