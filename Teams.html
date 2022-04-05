@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/static/css/teams.css">
     <title>Document</title>
 </head>
 <body>
     <div id="header"></div>
     <div class="main">
-        <h2 style="text-align: center">Teams Introduction</h2>
+        <div class="wrapper"><h2>Teams Introduction</h2></div>
+        
         <div class="info">
             <img src="/static/images/profile-img.jpeg">
-            <h4 style="text-align: center;">Chayn Sun</h4>
+            <h4 style="text-align: center; margin-top: 10px;">Chayn Sun</h4>
             <div class="text">
             <ul>
                 <li>Lorem ipsum dolor sit amet</li>
@@ -26,8 +28,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
             </div>
             </div>
         </div>
+        <div class="arrows">
+            <img class="right"src="/static/images/right-forward.png">
+            <img class="left"src="/static/images/left-forward.png">
+        </div>
 
     </div>
     <div id="footer"></div>
+    <script>
+        $("#header").load("Header.html");
+        $("#footer").load("Footer.html");
+    </script>
 </body>
 </html>

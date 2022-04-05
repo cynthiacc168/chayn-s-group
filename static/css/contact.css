@@ -1,0 +1,15 @@
+.main-content{
+    width: 25%;
+    margin: 10px auto;
+    line-height: 60px;
+    min-height: 685px;
+}
+
+.main-content h1{
+    text-align: center;
+}
+
+.detail{
+    list-style: none;
+    text-indent: 2px;
+}

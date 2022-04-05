@@ -1,0 +1,27 @@
+
+.text-center{
+
+    width: 200px;
+    margin: 10px auto;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-gap:20px;
+    justify-content: center;
+    margin-bottom: 10px;
+} 
+
+.container{
+border-radius: 5%;
+background-color: rgba(212, 212, 212, 50%);
+padding: 30px 10px 10px 15px;
+}
+
+.container img{
+    width: 50%;
+}
+
+.text{
+    overflow: hidden;
+}

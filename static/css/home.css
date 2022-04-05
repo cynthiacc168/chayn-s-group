@@ -2,8 +2,8 @@
 .intro{
     background-image: url(/static/images/intro.jpg);
     background-size:cover;
-    /* background-repeat: no-repeat; */
     height: 600px;
+    text-align: center;
 }
 .teams{
     background-image: url(/static/images/teams.jpg);
@@ -13,20 +13,24 @@
 }
 
 .intro-text{
-    width: 400px;
-    /* border-radius: 1%; */
-    display: inline-block;
-    margin-top: 100px;
-    margin-left: 50px;
+    width: 40%;
+    /* display: inline-block; */
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform: translate(-50%);
+    /* margin-top:100px; */
     background-color: rgba(255, 253, 236, 0.4);
     box-shadow: 1px 1px 5px 25px rgba(255, 253, 236, 0.4);
 }
 
 .ongoing-project{
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 20px;
+    margin: 30px 50px 20px 50px;
 
+
+}
+.pj-1{
+    margin-top: 5px;
 }
 
 .pj-text{
@@ -59,11 +63,11 @@
     float:right;
     width:55%;
     margin-right:50px;
+    margin-top: 50px;
 }
 
 .collaboration{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 10px 50px 0px 50px;
 
 }
 

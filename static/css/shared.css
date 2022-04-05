@@ -1,32 +1,69 @@
-
+@import url("/static/css/common.css");
 .footer{
     height: 60px;
     background-color: antiquewhite;
     text-align: center;
     line-height: 60px;
-
 }
 
 .header{
     height: 75px;
+    width: 100%;
     background-color: antiquewhite;
 }
 
-.header .title{
+.nav-btn{
     float: left;
-    margin-left: 20px;
+    height: 75%;
+    padding:4px;
+    line-height: 75px;
+    border-radius: 5px 5px 5px 5px;  
+}
+
+.header .logo{
+    display: block;
+    height: 75px;
+    margin: 0 auto;
+}
+
+.nav{
+    float: left;
+    height: 500px;
+    width: 250px;
+    display:none;
+    background-color: rgba(0,0,0,0.7);
+
+}
+
+.nav li{
+    padding-left: 10%;
+    list-style-type: none;
     line-height: 75px;
 }
 
-.header .nav{
-    float: right;
-    justify-items: start;
-    margin-right: 20px;
-    line-height: 75px;
+.nav li:hover{
+background-color: black;
 }
 
 .header .nav a {
     text-decoration: none;
     margin: 10px;
-    color: black;
+    color: antiquewhite;
+}
+
+.nav button{
+    background-color: transparent;
+    border:none;
+    
+}
+.nav button img{
+    width: 8%;
+    float: right;
+    margin: 10px;
+}
+
+.footer{
+    /* position: fixed;
+    bottom: 0px; */
+    width: 100%;
 }
