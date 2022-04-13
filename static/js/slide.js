@@ -7,16 +7,24 @@ class slide{
 
     init(){
         this.left_btn.onclick = this.left;
-        // this.rigth_btn.onclick = this.right;
+        this.rigth_btn.onclick = this.right;
     }
 
     left(){
-        console.log("left");
+        var next = document.querySelector(".join");
+        next.style.display="none";
+
+        var info = document.querySelector(".info");
+        info.style.display="block";
 
     }
 
     right(){
-        console.log("right");
+        var next = document.querySelector(".join");
+        next.style.display="block";
+
+        var info = document.querySelector(".info");
+        info.style.display="none";
     }
 
 }

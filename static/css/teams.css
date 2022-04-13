@@ -8,6 +8,17 @@
     padding: 30px;
     min-height: 400px;
 }
+
+.join{
+    display: none;
+    min-height: 635px;
+    text-align: center;
+}
+
+.join a{
+    font-size: 60px;
+    line-height: 600px;
+}
 .wrapper{
     margin: 10px auto;
     width: 22%;
@@ -39,12 +50,10 @@
     right:3%;
     top: 60%;
     transform: translate(0,-50%);
-    z-index: -1;
 }
 .left{
     position:absolute;
     left:3%;
     top: 60%;
     transform: translate(0,-50%);
-    z-index: -1;
 }
