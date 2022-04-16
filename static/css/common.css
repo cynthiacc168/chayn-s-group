@@ -5,6 +5,15 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
 }
+
+html, body{
+    height: 100%;
+}
 h1{
     font-size: 30px;
+}
+
+.main{
+    position: relative;
+    min-height: 100%;
 }

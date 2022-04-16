@@ -1,5 +1,8 @@
 @import url("/static/css/common.css");
 
+.content{
+    padding-bottom:100px;
+}
 .info{
     background-color: rgba(235, 235, 235, 50%);
     margin:15px auto;
@@ -42,18 +45,18 @@
 }
 
 .arrows img{
-    width: 10%;
+    width: 9%;
 }
 
 .right{
-    position: absolute;
-    right:3%;
-    top: 60%;
+    position: fixed;
+    right:8%;
+    top: 55%;
     transform: translate(0,-50%);
 }
 .left{
-    position:absolute;
-    left:3%;
-    top: 60%;
+    position:fixed;
+    left:8%;
+    top: 55%;
     transform: translate(0,-50%);
 }
